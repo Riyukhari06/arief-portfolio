@@ -104,13 +104,11 @@ export default function Hero() {
             </div>
 
             {/* Avatar placeholder */}
-            <div className="mx-auto my-6 h-32 w-32 rounded-full overflow-hidden ring-1 ring-indigo-100">
-              <img
-                src={`${import.meta.env.BASE_URL}assets/images/saranio-croped.png`}
-                alt="arlop"
-                className="w-full h-full object-cover block"
-              />
-            </div>
+            <img
+              src={`${import.meta.env.BASE_URL}assets/images/saranio-croped.png`}
+              alt="Arief Riyukhari"
+              className="my-6 aspect-[4/5] w-full rounded-xl object-cover"
+            />
 
             <dl className="space-y-3 font-mono text-xs">
               <div className="flex justify-between">
